@@ -1,12 +1,12 @@
-from Sibyl_System import (
+from Subaru_System import (
     System,
     system_cmd,
     make_collections,
     INSPECTORS,
     ENFORCERS,
-    Sibyl_logs,
+    Subaru_logs,
 )
-from Sibyl_System.strings import on_string
+from Subaru_System.strings import on_string
 import logging
 import importlib
 import asyncio
@@ -16,7 +16,7 @@ logging.basicConfig(
     format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=logging.WARNING
 )
 
-from Sibyl_System.plugins import to_load
+from Subaru_System.plugins import to_load
 
 HELP = {}
 IMPORTED = {}
